@@ -8,17 +8,17 @@ import org.springframework.context.annotation.Configuration;
 public class TestConfig {
 
     @Bean
-    public TestController testController1() {
-        return new TestControllerImpl(testService1());
+    public TestController testController1(LogPrinter logPrinter) {
+        return new TestControllerImpl(testService1(logPrinter), logPrinter);
     }
 
     @Bean
-    public TestService testService1() {
-        return new TestServiceImpl(testRepository1());
+    public TestService testService1(LogPrinter logPrinter) {
+        return new TestServiceImpl(testRepository1(logPrinter), logPrinter);
     }
 
     @Bean
-    public TestRepository testRepository1() {
-        return new TestRepositoryImpl();
+    public TestRepository testRepository1(LogPrinter logPrinter) {
+        return new TestRepositoryImpl(logPrinter);
     }
 }
