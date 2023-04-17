@@ -1,6 +1,5 @@
 package com.example.aoptest.test;
 
-public interface TestRepository {
-
+public interface RepositoryInterface {
     String func();
 }

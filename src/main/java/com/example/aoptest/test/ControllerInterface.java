@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @RequestMapping
 @ResponseBody
-public interface TestController {
+public interface ControllerInterface {
 
     @GetMapping("/test/func")
     String func();

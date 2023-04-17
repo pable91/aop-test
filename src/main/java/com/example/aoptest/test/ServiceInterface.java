@@ -1,5 +1,5 @@
 package com.example.aoptest.test;
 
-public interface TestService {
+public interface ServiceInterface {
     String func();
 }

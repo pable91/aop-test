@@ -12,8 +12,5 @@ public class AopTestApplication {
         SpringApplication.run(AopTestApplication.class, args);
     }
 
-    @Bean
-    public LogPrinter logPrinter() {
-        return new LogPrinter();
-    }
+
 }
