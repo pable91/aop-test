@@ -1,7 +1,7 @@
-package com.example.aoptest.test.proxy;
+package com.example.aoptest.test.interfaceProxy_v1.proxy.interfaceProxy;
 
 import com.example.aoptest.test.LogPrinter;
-import com.example.aoptest.test.ServiceInterface;
+import com.example.aoptest.test.interfaceProxy_v1.ServiceInterface;
 
 public class ServiceProxy implements ServiceInterface {
 
