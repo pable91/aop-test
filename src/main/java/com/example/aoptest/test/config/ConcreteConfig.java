@@ -1,13 +1,12 @@
-package com.example.aoptest.test.concreateProxy_v2.config;
+package com.example.aoptest.test.config;
 
 import com.example.aoptest.test.LogPrinter;
-import com.example.aoptest.test.concreateProxy_v2.ControllerImplV2;
-import com.example.aoptest.test.concreateProxy_v2.RepositoryImplV2;
-import com.example.aoptest.test.concreateProxy_v2.ServiceImplV2;
-import com.example.aoptest.test.concreateProxy_v2.concreteProxy.ControllerProxyV2;
-import com.example.aoptest.test.concreateProxy_v2.concreteProxy.RepositoryProxyV2;
-import com.example.aoptest.test.concreateProxy_v2.concreteProxy.ServiceProxyV2;
-import com.example.aoptest.test.interfaceProxy_v1.proxy.interfaceProxy.ControllerProxy;
+import com.example.aoptest.test.app.concreateProxy_v2.ControllerImplV2;
+import com.example.aoptest.test.app.concreateProxy_v2.RepositoryImplV2;
+import com.example.aoptest.test.app.concreateProxy_v2.ServiceImplV2;
+import com.example.aoptest.test.app.concreateProxy_v2.concreteProxy.ControllerProxyV2;
+import com.example.aoptest.test.app.concreateProxy_v2.concreteProxy.RepositoryProxyV2;
+import com.example.aoptest.test.app.concreateProxy_v2.concreteProxy.ServiceProxyV2;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

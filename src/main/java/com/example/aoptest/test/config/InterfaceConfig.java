@@ -1,10 +1,10 @@
-package com.example.aoptest.test.interfaceProxy_v1.config;
+package com.example.aoptest.test.config;
 
-import com.example.aoptest.test.*;
-import com.example.aoptest.test.interfaceProxy_v1.*;
-import com.example.aoptest.test.interfaceProxy_v1.proxy.interfaceProxy.ControllerProxy;
-import com.example.aoptest.test.interfaceProxy_v1.proxy.interfaceProxy.RepositoryProxy;
-import com.example.aoptest.test.interfaceProxy_v1.proxy.interfaceProxy.ServiceProxy;
+import com.example.aoptest.test.LogPrinter;
+import com.example.aoptest.test.app.interfaceProxy_v1.*;
+import com.example.aoptest.test.app.interfaceProxy_v1.proxy.interfaceProxy.ControllerProxy;
+import com.example.aoptest.test.app.interfaceProxy_v1.proxy.interfaceProxy.RepositoryProxy;
+import com.example.aoptest.test.app.interfaceProxy_v1.proxy.interfaceProxy.ServiceProxy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,4 +1,4 @@
-package com.example.aoptest.test.concreateProxy_v2;
+package com.example.aoptest.test.app.concreateProxy_v2;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,7 +1,7 @@
-package com.example.aoptest.test.interfaceProxy_v1.proxy.interfaceProxy;
+package com.example.aoptest.test.app.interfaceProxy_v1.proxy.interfaceProxy;
 
 import com.example.aoptest.test.LogPrinter;
-import com.example.aoptest.test.interfaceProxy_v1.ControllerInterface;
+import com.example.aoptest.test.app.interfaceProxy_v1.ControllerInterface;
 
 public class ControllerProxy implements ControllerInterface {
 

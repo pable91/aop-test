@@ -1,6 +1,6 @@
-package com.example.aoptest.test.concreateProxy_v2.concreteProxy;
+package com.example.aoptest.test.app.concreateProxy_v2.concreteProxy;
 
-import com.example.aoptest.test.concreateProxy_v2.ControllerImplV2;
+import com.example.aoptest.test.app.concreateProxy_v2.ControllerImplV2;
 import com.example.aoptest.test.LogPrinter;
 
 public class ControllerProxyV2 extends ControllerImplV2 {

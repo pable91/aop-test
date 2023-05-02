@@ -1,7 +1,7 @@
-package com.example.aoptest.test.concreateProxy_v2.concreteProxy;
+package com.example.aoptest.test.app.concreateProxy_v2.concreteProxy;
 
 import com.example.aoptest.test.LogPrinter;
-import com.example.aoptest.test.concreateProxy_v2.ServiceImplV2;
+import com.example.aoptest.test.app.concreateProxy_v2.ServiceImplV2;
 
 public class ServiceProxyV2 extends ServiceImplV2 {
 

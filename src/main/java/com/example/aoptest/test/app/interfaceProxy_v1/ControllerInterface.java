@@ -1,4 +1,4 @@
-package com.example.aoptest.test.interfaceProxy_v1;
+package com.example.aoptest.test.app.interfaceProxy_v1;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
